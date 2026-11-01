@@ -1,13 +1,13 @@
 # Codex DeepSeek 协作面板（早期版本）
 
-在 Codex 聊天旁展示主 Codex 明确委派给百炼 DeepSeek 的任务和回复。支持连续追问、查看记录和停止请求。Codex 负责检查结果；DeepSeek 不直接读取本地文件或执行命令。
+在 Codex 聊天旁展示主 Codex 明确委派给已配置模型的任务和回复。支持连续追问、查看记录和停止请求。Codex 负责检查结果；协作模型不直接读取本地文件或执行命令。
 
 当前版本面向 Windows，默认使用百炼 `deepseek-v4.1-flash-1017`；也可配置兼容 OpenAI Chat Completions 的 HTTPS 服务。不同供应商的兼容程度可能不同。回复完整返回后显示，不支持逐字流式输出。是否能显示侧边面板取决于 Codex 宿主对 MCP App 和 Thread Entrypoint 的支持。
 
 ## 使用前
 
 - Windows、支持插件和 MCP App 的 Codex 桌面应用、Git 和 Node.js 24（命令 `node` 需在 PATH 中可用）。
-- 自己的阿里云百炼 API Key、模型访问权限和可用额度；请求按百炼的实际计费规则收费。
+- 所选供应商的 API Key、模型访问权限和可用额度；请求按该供应商的实际计费规则收费。使用默认配置才需要百炼密钥。
 - 审阅源码和依赖后再安装第三方插件。本项目不是 DeepSeek、阿里云或 OpenAI 的官方产品。
 
 ## 安装
