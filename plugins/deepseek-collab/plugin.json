@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "deepseek-collab",
-  "version": "0.1.1",
-  "description": "由主 Codex 委派百炼 DeepSeek 文本任务，并在聊天侧边面板保留任务与回复。",
+  "version": "0.2.0",
+  "description": "由主 Codex 委派任务给已配置的模型供应商，并在聊天侧边面板保留任务与回复。",
   "author": {
     "name": "Local Workspace"
   },
@@ -11,7 +11,7 @@
       "interface": {
         "displayName": "DeepSeek 协作",
         "shortDescription": "任务与回复并排展示",
-        "longDescription": "在当前聊天旁查看主 Codex 发给 DeepSeek 的任务与回复，支持同一任务连续追问。仅显式委派才调用按量计费 API，不执行本地命令。",
+        "longDescription": "在当前聊天旁查看主 Codex 发给已配置模型的任务与回复，支持同一任务连续追问。仅显式委派才调用可能按量计费的 API，不执行本地命令。",
         "developerName": "Local Workspace",
         "category": "Developer Tools",
         "capabilities": [

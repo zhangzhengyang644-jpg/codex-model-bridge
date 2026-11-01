@@ -2,7 +2,7 @@
 
 在 Codex 聊天旁展示主 Codex 明确委派给百炼 DeepSeek 的任务和回复。支持连续追问、查看记录和停止请求。Codex 负责检查结果；DeepSeek 不直接读取本地文件或执行命令。
 
-当前版本面向 Windows，固定使用百炼 `deepseek-v4.1-flash-1017`。回复完整返回后显示，不支持逐字流式输出。是否能显示侧边面板取决于 Codex 宿主对 MCP App 和 Thread Entrypoint 的支持。
+当前版本面向 Windows，默认使用百炼 `deepseek-v4.1-flash-1017`；也可配置兼容 OpenAI Chat Completions 的 HTTPS 服务。不同供应商的兼容程度可能不同。回复完整返回后显示，不支持逐字流式输出。是否能显示侧边面板取决于 Codex 宿主对 MCP App 和 Thread Entrypoint 的支持。
 
 ## 使用前
 
@@ -45,6 +45,29 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\plugins\deepseek-colla
 - 本机密钥可通过环境变量 `DASHSCOPE_API_KEY` 或 DPAPI 文件提供。密钥不要写入此项目文件。
 - 取消请求不能撤销已发出的信息或已产生的费用。请求超时为两分钟；意外退出可能留下锁，可新建协作。
 - 曾在一个受限环境中出现会话记录重命名失败；重启应用后一次真实百炼单轮调用成功。根因未确认，跨机器安装和逐字流式输出未验证。
+
+## 配置其他供应商（实验性）
+
+当前一次运行只使用一个供应商。修改 `plugins/deepseek-collab/mcp.json`，在 `deepseek-collab` 的 `cwd` 同级添加 `env`；例如 DeepSeek 官方接口：
+
+```json
+"env": {
+  "COLLAB_ENDPOINT": "https://api.deepseek.com/chat/completions",
+  "COLLAB_MODEL": "deepseek-flash"
+}
+```
+
+上述只填地址和模型名，**不要在 `mcp.json` 或仓库文件中写 API Key**。在克隆目录中配置该供应商的独立密钥：
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\plugins\deepseek-collab\setup-key.ps1 -Provider custom -Endpoint 'https://api.deepseek.com/chat/completions'
+```
+
+按隐藏提示输入该供应商自己的密钥；不要使用百炼密钥。密钥会绑定到所填地址。更换地址时须重新运行上述脚本并输入新供应商的密钥，再重新安装插件并重启宿主以加载配置。设置环境变量 `COLLAB_API_KEY` 会跳过文件绑定检查，请仅用于可信的进程环境。
+
+使用其他兼容服务时，替换完整的 HTTPS Chat Completions 地址和对应模型名；请先查阅供应商文档。只有兼容 Bearer 认证及本插件请求/响应格式的服务可能可用，原生 Anthropic Messages、OpenAI Responses 等不同协议未实现。设置自定义地址意味着明确同意向该地址发送任务及其协作历史，请仔细核对地址。
+
+自定义供应商尚未进行真实 API 联调；先前真实成功的是百炼默认配置。
 
 ## 开发
 

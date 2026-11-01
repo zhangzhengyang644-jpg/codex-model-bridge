@@ -29,9 +29,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/code.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/code.js
 var require_code = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/code.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/code.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.regexpCode = exports.getEsmExportName = exports.getProperty = exports.safeStringify = exports.stringify = exports.strConcat = exports.addCodeArg = exports.str = exports._ = exports.nil = exports._Code = exports.Name = exports.IDENTIFIER = exports._CodeOrName = void 0;
@@ -183,9 +183,9 @@ var require_code = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/scope.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/scope.js
 var require_scope = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/scope.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/scope.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ValueScope = exports.ValueScopeName = exports.Scope = exports.varKinds = exports.UsedValueState = void 0;
@@ -328,9 +328,9 @@ var require_scope = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/index.js
 var require_codegen = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/index.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.or = exports.and = exports.not = exports.CodeGen = exports.operators = exports.varKinds = exports.ValueScopeName = exports.ValueScope = exports.Scope = exports.Name = exports.regexpCode = exports.stringify = exports.getProperty = exports.nil = exports.strConcat = exports.str = exports._ = void 0;
@@ -1048,9 +1048,9 @@ var require_codegen = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/util.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/util.js
 var require_util = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/util.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.checkStrictMode = exports.getErrorPath = exports.Type = exports.useFunc = exports.setEvaluated = exports.evaluatedPropsToName = exports.mergeEvaluated = exports.eachItem = exports.unescapeJsonPointer = exports.escapeJsonPointer = exports.escapeFragment = exports.unescapeFragment = exports.schemaRefOrVal = exports.schemaHasRulesButRef = exports.schemaHasRules = exports.checkUnknownRules = exports.alwaysValidSchema = exports.toHash = void 0;
@@ -1215,9 +1215,9 @@ var require_util = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/names.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/names.js
 var require_names = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/names.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/names.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -1254,9 +1254,9 @@ var require_names = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/errors.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/errors.js
 var require_errors = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/errors.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/errors.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.extendErrors = exports.resetErrorsCount = exports.reportExtraError = exports.reportError = exports.keyword$DataError = exports.keywordError = void 0;
@@ -1376,9 +1376,9 @@ var require_errors = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/boolSchema.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/boolSchema.js
 var require_boolSchema = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/boolSchema.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/boolSchema.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.boolOrEmptySchema = exports.topBoolOrEmptySchema = void 0;
@@ -1427,9 +1427,9 @@ var require_boolSchema = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/rules.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/rules.js
 var require_rules = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/rules.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/rules.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRules = exports.isJSONType = void 0;
@@ -1458,9 +1458,9 @@ var require_rules = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/applicability.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/applicability.js
 var require_applicability = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/applicability.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/applicability.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.shouldUseRule = exports.shouldUseGroup = exports.schemaHasRulesForType = void 0;
@@ -1481,9 +1481,9 @@ var require_applicability = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/dataType.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/dataType.js
 var require_dataType = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/dataType.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/dataType.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.reportTypeError = exports.checkDataTypes = exports.checkDataType = exports.coerceAndCheckDataType = exports.getJSONTypes = exports.getSchemaTypes = exports.DataType = void 0;
@@ -1665,9 +1665,9 @@ var require_dataType = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/defaults.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/defaults.js
 var require_defaults = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/defaults.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/defaults.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.assignDefaults = void 0;
@@ -1702,9 +1702,9 @@ var require_defaults = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/code.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/code.js
 var require_code2 = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/code.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/code.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateUnion = exports.validateArray = exports.usePattern = exports.callValidateCode = exports.schemaProperties = exports.allSchemaProperties = exports.noPropertyInData = exports.propertyInData = exports.isOwnProperty = exports.hasPropFunc = exports.reportMissingProp = exports.checkMissingProp = exports.checkReportMissingProp = void 0;
@@ -1835,9 +1835,9 @@ var require_code2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/keyword.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/keyword.js
 var require_keyword = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/keyword.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/keyword.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateKeywordUsage = exports.validSchemaType = exports.funcKeywordCode = exports.macroKeywordCode = void 0;
@@ -1953,9 +1953,9 @@ var require_keyword = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/subschema.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/subschema.js
 var require_subschema = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/subschema.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/subschema.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.extendSubschemaMode = exports.extendSubschemaData = exports.getSubschema = void 0;
@@ -2036,9 +2036,9 @@ var require_subschema = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/index.js
 var require_fast_deep_equal = __commonJS({
-  "node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/index.js"(exports, module) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/index.js"(exports, module) {
     "use strict";
     module.exports = function equal(a, b) {
       if (a === b) return true;
@@ -2071,9 +2071,9 @@ var require_fast_deep_equal = __commonJS({
   }
 });
 
-// node_modules/.pnpm/json-schema-traverse@1.0.0/node_modules/json-schema-traverse/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/json-schema-traverse@1.0.0/node_modules/json-schema-traverse/index.js
 var require_json_schema_traverse = __commonJS({
-  "node_modules/.pnpm/json-schema-traverse@1.0.0/node_modules/json-schema-traverse/index.js"(exports, module) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/json-schema-traverse@1.0.0/node_modules/json-schema-traverse/index.js"(exports, module) {
     "use strict";
     var traverse = module.exports = function(schema, opts, cb) {
       if (typeof opts == "function") {
@@ -2159,9 +2159,9 @@ var require_json_schema_traverse = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/resolve.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/resolve.js
 var require_resolve = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/resolve.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/resolve.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSchemaRefs = exports.resolveUrl = exports.normalizeId = exports._getFullPath = exports.getFullPath = exports.inlineRef = void 0;
@@ -2315,9 +2315,9 @@ var require_resolve = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/index.js
 var require_validate = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/index.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getData = exports.KeywordCxt = exports.validateFunctionCode = void 0;
@@ -2823,9 +2823,9 @@ var require_validate = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/validation_error.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/validation_error.js
 var require_validation_error = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/validation_error.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/validation_error.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var ValidationError = class extends Error {
@@ -2839,9 +2839,9 @@ var require_validation_error = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/ref_error.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/ref_error.js
 var require_ref_error = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/ref_error.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/ref_error.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var resolve_1 = require_resolve();
@@ -2856,9 +2856,9 @@ var require_ref_error = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/index.js
 var require_compile = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/index.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveSchema = exports.getCompilingSchema = exports.resolveRef = exports.compileSchema = exports.SchemaEnv = void 0;
@@ -3080,9 +3080,9 @@ var require_compile = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/data.json
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/data.json
 var require_data = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/data.json"(exports, module) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/data.json"(exports, module) {
     module.exports = {
       $id: "https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#",
       description: "Meta-schema for $data reference (JSON AnySchema extension proposal)",
@@ -3099,9 +3099,9 @@ var require_data = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/lib/utils.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/lib/utils.js
 var require_utils = __commonJS({
-  "node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/lib/utils.js"(exports, module) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/lib/utils.js"(exports, module) {
     "use strict";
     var isUUID = RegExp.prototype.test.bind(/^[\da-f]{8}-[\da-f]{4}-[\da-f]{4}-[\da-f]{4}-[\da-f]{12}$/iu);
     var isIPv4 = RegExp.prototype.test.bind(/^(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)$/u);
@@ -3633,9 +3633,9 @@ var require_utils = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/lib/schemes.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/lib/schemes.js
 var require_schemes = __commonJS({
-  "node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/lib/schemes.js"(exports, module) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/lib/schemes.js"(exports, module) {
     "use strict";
     var { isUUID } = require_utils();
     var URN_REG = /^([\da-z][\d\-a-z]{0,31}):((?:[\w!$'()*+,\-./:;=@]|%[\da-f]{2})+)$/iu;
@@ -3844,9 +3844,9 @@ var require_schemes = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/index.js
 var require_fast_uri = __commonJS({
-  "node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/index.js"(exports, module) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/fast-uri@3.1.9/node_modules/fast-uri/index.js"(exports, module) {
     "use strict";
     var { normalizeIPv6, removeDotSegments, removeDotSegmentsRelative, recomposeAuthority, normalizePercentEncoding, normalizePathEncoding, serializePathEncoding, normalizeQueryFragmentEncoding, encodeQuery, encodeFragment, reescapeHostDelimiters, isIPv4, nonSimpleDomain } = require_utils();
     var { SCHEMES, getSchemeHandler } = require_schemes();
@@ -4274,9 +4274,9 @@ var require_fast_uri = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/uri.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/uri.js
 var require_uri = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/uri.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/uri.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var uri2 = require_fast_uri();
@@ -4285,9 +4285,9 @@ var require_uri = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/core.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/core.js
 var require_core = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/core.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/core.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CodeGen = exports.Name = exports.nil = exports.stringify = exports.str = exports._ = exports.KeywordCxt = void 0;
@@ -4896,9 +4896,9 @@ var require_core = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/id.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/id.js
 var require_id = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/id.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/id.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var def = {
@@ -4911,9 +4911,9 @@ var require_id = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/ref.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/ref.js
 var require_ref = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/ref.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/ref.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.callRef = exports.getValidate = void 0;
@@ -5033,9 +5033,9 @@ var require_ref = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/index.js
 var require_core2 = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/index.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var id_1 = require_id();
@@ -5054,9 +5054,9 @@ var require_core2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitNumber.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitNumber.js
 var require_limitNumber = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitNumber.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitNumber.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5086,9 +5086,9 @@ var require_limitNumber = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/multipleOf.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/multipleOf.js
 var require_multipleOf = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/multipleOf.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/multipleOf.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5114,9 +5114,9 @@ var require_multipleOf = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/ucs2length.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/ucs2length.js
 var require_ucs2length = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/ucs2length.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/ucs2length.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function ucs2length(str) {
@@ -5140,9 +5140,9 @@ var require_ucs2length = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitLength.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitLength.js
 var require_limitLength = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitLength.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitLength.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5172,9 +5172,9 @@ var require_limitLength = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/pattern.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/pattern.js
 var require_pattern = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/pattern.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/pattern.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -5209,9 +5209,9 @@ var require_pattern = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitProperties.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitProperties.js
 var require_limitProperties = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitProperties.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitProperties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5238,9 +5238,9 @@ var require_limitProperties = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/required.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/required.js
 var require_required = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/required.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/required.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -5320,9 +5320,9 @@ var require_required = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitItems.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitItems.js
 var require_limitItems = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitItems.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitItems.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5349,9 +5349,9 @@ var require_limitItems = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/equal.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/equal.js
 var require_equal = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/equal.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/equal.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var equal = require_fast_deep_equal();
@@ -5360,9 +5360,9 @@ var require_equal = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js
 var require_uniqueItems = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var dataType_1 = require_dataType();
@@ -5427,9 +5427,9 @@ var require_uniqueItems = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/const.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/const.js
 var require_const = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/const.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/const.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5456,9 +5456,9 @@ var require_const = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/enum.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/enum.js
 var require_enum = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/enum.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/enum.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5505,9 +5505,9 @@ var require_enum = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/index.js
 var require_validation = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/index.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var limitNumber_1 = require_limitNumber();
@@ -5543,9 +5543,9 @@ var require_validation = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js
 var require_additionalItems = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateAdditionalItems = void 0;
@@ -5596,9 +5596,9 @@ var require_additionalItems = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items.js
 var require_items = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateTuple = void 0;
@@ -5653,9 +5653,9 @@ var require_items = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js
 var require_prefixItems = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var items_1 = require_items();
@@ -5670,9 +5670,9 @@ var require_prefixItems = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items2020.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items2020.js
 var require_items2020 = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items2020.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items2020.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5705,9 +5705,9 @@ var require_items2020 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/contains.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/contains.js
 var require_contains = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/contains.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/contains.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5799,9 +5799,9 @@ var require_contains = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/dependencies.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/dependencies.js
 var require_dependencies = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/dependencies.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/dependencies.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateSchemaDeps = exports.validatePropertyDeps = exports.error = void 0;
@@ -5893,9 +5893,9 @@ var require_dependencies = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js
 var require_propertyNames = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5936,9 +5936,9 @@ var require_propertyNames = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js
 var require_additionalProperties = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -6042,9 +6042,9 @@ var require_additionalProperties = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/properties.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/properties.js
 var require_properties = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/properties.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/properties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var validate_1 = require_validate();
@@ -6100,9 +6100,9 @@ var require_properties = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js
 var require_patternProperties = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -6174,9 +6174,9 @@ var require_patternProperties = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/not.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/not.js
 var require_not = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/not.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/not.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var util_1 = require_util();
@@ -6205,9 +6205,9 @@ var require_not = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/anyOf.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/anyOf.js
 var require_anyOf = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/anyOf.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/anyOf.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -6222,9 +6222,9 @@ var require_anyOf = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/oneOf.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/oneOf.js
 var require_oneOf = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/oneOf.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/oneOf.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -6280,9 +6280,9 @@ var require_oneOf = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/allOf.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/allOf.js
 var require_allOf = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/allOf.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/allOf.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var util_1 = require_util();
@@ -6307,9 +6307,9 @@ var require_allOf = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/if.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/if.js
 var require_if = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/if.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/if.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -6376,9 +6376,9 @@ var require_if = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/thenElse.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/thenElse.js
 var require_thenElse = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/thenElse.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/thenElse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var util_1 = require_util();
@@ -6394,9 +6394,9 @@ var require_thenElse = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/index.js
 var require_applicator = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/index.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var additionalItems_1 = require_additionalItems();
@@ -6442,9 +6442,9 @@ var require_applicator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/format.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/format.js
 var require_format = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/format.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/format.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -6532,9 +6532,9 @@ var require_format = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/index.js
 var require_format2 = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/index.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var format_1 = require_format();
@@ -6543,9 +6543,9 @@ var require_format2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/metadata.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/metadata.js
 var require_metadata = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/metadata.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/metadata.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.contentVocabulary = exports.metadataVocabulary = void 0;
@@ -6566,9 +6566,9 @@ var require_metadata = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/draft7.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/draft7.js
 var require_draft7 = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/draft7.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/draft7.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var core_1 = require_core2();
@@ -6588,9 +6588,9 @@ var require_draft7 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/types.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/types.js
 var require_types = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/types.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DiscrError = void 0;
@@ -6602,9 +6602,9 @@ var require_types = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/index.js
 var require_discriminator = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/index.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -6707,9 +6707,9 @@ var require_discriminator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/json-schema-draft-07.json
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/json-schema-draft-07.json
 var require_json_schema_draft_07 = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/json-schema-draft-07.json"(exports, module) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/json-schema-draft-07.json"(exports, module) {
     module.exports = {
       $schema: "http://json-schema.org/draft-07/schema#",
       $id: "http://json-schema.org/draft-07/schema#",
@@ -6864,9 +6864,9 @@ var require_json_schema_draft_07 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/ajv.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/ajv.js
 var require_ajv = __commonJS({
-  "node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/ajv.js"(exports, module) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/ajv.js"(exports, module) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.MissingRefError = exports.ValidationError = exports.CodeGen = exports.Name = exports.nil = exports.stringify = exports.str = exports._ = exports.KeywordCxt = exports.Ajv = void 0;
@@ -6934,9 +6934,9 @@ var require_ajv = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/formats.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/formats.js
 var require_formats = __commonJS({
-  "node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/formats.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/formats.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.formatNames = exports.fastFormats = exports.fullFormats = void 0;
@@ -7137,9 +7137,9 @@ var require_formats = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/limit.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/limit.js
 var require_limit = __commonJS({
-  "node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/limit.js"(exports) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/limit.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.formatLimitDefinition = void 0;
@@ -7209,9 +7209,9 @@ var require_limit = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/index.js
 var require_dist = __commonJS({
-  "node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/index.js"(exports, module) {
+  "../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.20.0/node_modules/ajv-formats/dist/index.js"(exports, module) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var formats_1 = require_formats();
@@ -7251,7 +7251,7 @@ var require_dist = __commonJS({
   }
 });
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/external.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/external.js
 var external_exports = {};
 __export(external_exports, {
   BRAND: () => BRAND,
@@ -7363,7 +7363,7 @@ __export(external_exports, {
   void: () => voidType
 });
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/helpers/util.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/helpers/util.js
 var util;
 (function(util2) {
   util2.assertEqual = (_) => {
@@ -7497,7 +7497,7 @@ var getParsedType = (data) => {
   }
 };
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/ZodError.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/ZodError.js
 var ZodIssueCode = util.arrayToEnum([
   "invalid_type",
   "invalid_literal",
@@ -7615,7 +7615,7 @@ ZodError.create = (issues) => {
   return error2;
 };
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/locales/en.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/locales/en.js
 var errorMap = (issue2, _ctx) => {
   let message;
   switch (issue2.code) {
@@ -7718,7 +7718,7 @@ var errorMap = (issue2, _ctx) => {
 };
 var en_default = errorMap;
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/errors.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/errors.js
 var overrideErrorMap = en_default;
 function setErrorMap(map) {
   overrideErrorMap = map;
@@ -7727,7 +7727,7 @@ function getErrorMap() {
   return overrideErrorMap;
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/helpers/parseUtil.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/helpers/parseUtil.js
 var makeIssue = (params) => {
   const { data, path, errorMaps, issueData } = params;
   const fullPath = [...path, ...issueData.path || []];
@@ -7837,14 +7837,14 @@ var isDirty = (x) => x.status === "dirty";
 var isValid = (x) => x.status === "valid";
 var isAsync = (x) => typeof Promise !== "undefined" && x instanceof Promise;
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/helpers/errorUtil.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/helpers/errorUtil.js
 var errorUtil;
 (function(errorUtil2) {
   errorUtil2.errToObj = (message) => typeof message === "string" ? { message } : message || {};
   errorUtil2.toString = (message) => typeof message === "string" ? message : message?.message;
 })(errorUtil || (errorUtil = {}));
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/types.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/types.js
 var ParseInputLazyPath = class {
   constructor(parent, value, path, key) {
     this._cachedPath = [];
@@ -11292,7 +11292,7 @@ var coerce = {
 };
 var NEVER = INVALID;
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/core.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/core.js
 var NEVER2 = Object.freeze({
   status: "aborted"
 });
@@ -11352,7 +11352,7 @@ function config(newConfig) {
   return globalConfig;
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/util.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/util.js
 var util_exports = {};
 __export(util_exports, {
   BIGINT_FORMAT_RANGES: () => BIGINT_FORMAT_RANGES,
@@ -11873,7 +11873,7 @@ var Class = class {
   }
 };
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/errors.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/errors.js
 var initializer = (inst, def) => {
   inst.name = "$ZodError";
   Object.defineProperty(inst, "_zod", {
@@ -11948,7 +11948,7 @@ function formatError(error2, _mapper) {
   return fieldErrors;
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/parse.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/parse.js
 var _parse = (_Err) => (schema, value, _ctx, _params) => {
   const ctx = _ctx ? Object.assign(_ctx, { async: false }) : { async: false };
   const result2 = schema._zod.run({ value, issues: [] }, ctx);
@@ -12000,7 +12000,7 @@ var _safeParseAsync = (_Err) => async (schema, value, _ctx) => {
 };
 var safeParseAsync = /* @__PURE__ */ _safeParseAsync($ZodRealError);
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/regexes.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/regexes.js
 var cuid = /^[cC][^\s-]{8,}$/;
 var cuid2 = /^[0-9a-z]+$/;
 var ulid = /^[0-9A-HJKMNP-TV-Za-hjkmnp-tv-z]{26}$/;
@@ -12058,7 +12058,7 @@ var _null = /null/i;
 var lowercase = /^[^A-Z]*$/;
 var uppercase = /^[^a-z]*$/;
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/checks.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/checks.js
 var $ZodCheck = /* @__PURE__ */ $constructor("$ZodCheck", (inst, def) => {
   var _a;
   inst._zod ?? (inst._zod = {});
@@ -12443,7 +12443,7 @@ var $ZodCheckOverwrite = /* @__PURE__ */ $constructor("$ZodCheckOverwrite", (ins
   };
 });
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/doc.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/doc.js
 var Doc = class {
   constructor(args = []) {
     this.content = [];
@@ -12479,14 +12479,14 @@ var Doc = class {
   }
 };
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/versions.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/versions.js
 var version = {
   major: 4,
   minor: 0,
   patch: 0
 };
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/schemas.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/schemas.js
 var $ZodType = /* @__PURE__ */ $constructor("$ZodType", (inst, def) => {
   var _a;
   inst ?? (inst = {});
@@ -13724,7 +13724,7 @@ function handleRefineResult(result2, payload, input, inst) {
   }
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/locales/en.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/locales/en.js
 var parsedType = (data) => {
   const t = typeof data;
   switch (t) {
@@ -13842,7 +13842,7 @@ function en_default2() {
   };
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/registries.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/registries.js
 var $output = Symbol("ZodOutput");
 var $input = Symbol("ZodInput");
 var $ZodRegistry = class {
@@ -13892,7 +13892,7 @@ function registry() {
 }
 var globalRegistry = /* @__PURE__ */ registry();
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/api.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/api.js
 function _string(Class2, params) {
   return new Class2({
     type: "string",
@@ -14331,7 +14331,7 @@ function _refine(Class2, fn, _params) {
   return schema;
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/to-json-schema.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/core/to-json-schema.js
 var JSONSchemaGenerator = class {
   constructor(params) {
     this.counter = 0;
@@ -15098,7 +15098,7 @@ function isTransforming(_schema, _ctx) {
   throw new Error(`Unknown schema type: ${def.type}`);
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/mini/schemas.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/mini/schemas.js
 var ZodMiniType = /* @__PURE__ */ $constructor("ZodMiniType", (inst, def) => {
   if (!inst._zod)
     throw new Error("Uninitialized schema in ZodMiniType.");
@@ -15144,7 +15144,7 @@ function object(shape, params) {
   return new ZodMiniObject(def);
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-compat.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-compat.js
 function isZ4Schema(s) {
   const schema = s;
   return !!schema._zod;
@@ -15304,7 +15304,7 @@ function getLiteralValue(schema) {
   return void 0;
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/iso.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/iso.js
 var iso_exports2 = {};
 __export(iso_exports2, {
   ZodISODate: () => ZodISODate,
@@ -15345,7 +15345,7 @@ function duration2(params) {
   return _isoDuration(ZodISODuration, params);
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/errors.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/errors.js
 var initializer2 = (inst, issues) => {
   $ZodError.init(inst, issues);
   inst.name = "ZodError";
@@ -15379,13 +15379,13 @@ var ZodRealError = $constructor("ZodError", initializer2, {
   Parent: Error
 });
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/parse.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/parse.js
 var parse2 = /* @__PURE__ */ _parse(ZodRealError);
 var parseAsync2 = /* @__PURE__ */ _parseAsync(ZodRealError);
 var safeParse3 = /* @__PURE__ */ _safeParse(ZodRealError);
 var safeParseAsync3 = /* @__PURE__ */ _safeParseAsync(ZodRealError);
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/schemas.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/schemas.js
 var ZodType2 = /* @__PURE__ */ $constructor("ZodType", (inst, def) => {
   $ZodType.init(inst, def);
   inst.def = def;
@@ -15996,10 +15996,10 @@ function preprocess(fn, schema) {
   return pipe(transform(fn), schema);
 }
 
-// node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/external.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v4/classic/external.js
 config(en_default2());
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
 var LATEST_PROTOCOL_VERSION = "2025-11-25";
 var SUPPORTED_PROTOCOL_VERSIONS = [LATEST_PROTOCOL_VERSION, "2025-06-18", "2025-03-26", "2024-11-05", "2024-10-07"];
 var RELATED_TASK_META_KEY = "io.modelcontextprotocol/related-task";
@@ -17530,12 +17530,12 @@ var UrlElicitationRequiredError = class extends McpError {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/interfaces.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/interfaces.js
 function isTerminal(status) {
   return status === "completed" || status === "failed" || status === "cancelled";
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/Options.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/Options.js
 var ignoreOverride = Symbol("Let zodToJsonSchema decide on which parser to use");
 var defaultOptions = {
   name: void 0,
@@ -17569,7 +17569,7 @@ var getDefaultOptions = (options) => typeof options === "string" ? {
   ...options
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/Refs.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/Refs.js
 var getRefs = (options) => {
   const _options = getDefaultOptions(options);
   const currentPath = _options.name !== void 0 ? [..._options.basePath, _options.definitionPath, _options.name] : _options.basePath;
@@ -17590,7 +17590,7 @@ var getRefs = (options) => {
   };
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/errorMessages.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/errorMessages.js
 function addErrorMessage(res, key, errorMessage, refs) {
   if (!refs?.errorMessages)
     return;
@@ -17606,7 +17606,7 @@ function setResponseValueAndErrors(res, key, value, errorMessage, refs) {
   addErrorMessage(res, key, errorMessage, refs);
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/getRelativePath.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/getRelativePath.js
 var getRelativePath = (pathA, pathB) => {
   let i = 0;
   for (; i < pathA.length && i < pathB.length; i++) {
@@ -17616,7 +17616,7 @@ var getRelativePath = (pathA, pathB) => {
   return [(pathA.length - i).toString(), ...pathB.slice(i)].join("/");
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/any.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/any.js
 function parseAnyDef(refs) {
   if (refs.target !== "openAi") {
     return {};
@@ -17632,7 +17632,7 @@ function parseAnyDef(refs) {
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/array.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/array.js
 function parseArrayDef(def, refs) {
   const res = {
     type: "array"
@@ -17656,7 +17656,7 @@ function parseArrayDef(def, refs) {
   return res;
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/bigint.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/bigint.js
 function parseBigintDef(def, refs) {
   const res = {
     type: "integer",
@@ -17702,24 +17702,24 @@ function parseBigintDef(def, refs) {
   return res;
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/boolean.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/boolean.js
 function parseBooleanDef() {
   return {
     type: "boolean"
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/branded.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/branded.js
 function parseBrandedDef(_def, refs) {
   return parseDef(_def.type._def, refs);
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/catch.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/catch.js
 var parseCatchDef = (def, refs) => {
   return parseDef(def.innerType._def, refs);
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/date.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/date.js
 function parseDateDef(def, refs, overrideDateStrategy) {
   const strategy = overrideDateStrategy ?? refs.dateStrategy;
   if (Array.isArray(strategy)) {
@@ -17778,7 +17778,7 @@ var integerDateParser = (def, refs) => {
   return res;
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/default.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/default.js
 function parseDefaultDef(_def, refs) {
   return {
     ...parseDef(_def.innerType._def, refs),
@@ -17786,12 +17786,12 @@ function parseDefaultDef(_def, refs) {
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/effects.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/effects.js
 function parseEffectsDef(_def, refs) {
   return refs.effectStrategy === "input" ? parseDef(_def.schema._def, refs) : parseAnyDef(refs);
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/enum.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/enum.js
 function parseEnumDef(def) {
   return {
     type: "string",
@@ -17799,7 +17799,7 @@ function parseEnumDef(def) {
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/intersection.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/intersection.js
 var isJsonSchema7AllOfType = (type) => {
   if ("type" in type && type.type === "string")
     return false;
@@ -17841,7 +17841,7 @@ function parseIntersectionDef(def, refs) {
   } : void 0;
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/literal.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/literal.js
 function parseLiteralDef(def, refs) {
   const parsedType2 = typeof def.value;
   if (parsedType2 !== "bigint" && parsedType2 !== "number" && parsedType2 !== "boolean" && parsedType2 !== "string") {
@@ -17861,7 +17861,7 @@ function parseLiteralDef(def, refs) {
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/string.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/string.js
 var emojiRegex2 = void 0;
 var zodPatterns = {
   /**
@@ -18186,7 +18186,7 @@ function stringifyRegExpWithFlags(regex, refs) {
   return pattern;
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/record.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/record.js
 function parseRecordDef(def, refs) {
   if (refs.target === "openAi") {
     console.warn("Warning: OpenAI may not support records in schemas! Try an array of key-value pairs instead.");
@@ -18238,7 +18238,7 @@ function parseRecordDef(def, refs) {
   return schema;
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/map.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/map.js
 function parseMapDef(def, refs) {
   if (refs.mapStrategy === "record") {
     return parseRecordDef(def, refs);
@@ -18263,7 +18263,7 @@ function parseMapDef(def, refs) {
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/nativeEnum.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/nativeEnum.js
 function parseNativeEnumDef(def) {
   const object3 = def.values;
   const actualKeys = Object.keys(def.values).filter((key) => {
@@ -18277,7 +18277,7 @@ function parseNativeEnumDef(def) {
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/never.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/never.js
 function parseNeverDef(refs) {
   return refs.target === "openAi" ? void 0 : {
     not: parseAnyDef({
@@ -18287,7 +18287,7 @@ function parseNeverDef(refs) {
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/null.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/null.js
 function parseNullDef(refs) {
   return refs.target === "openApi3" ? {
     enum: ["null"],
@@ -18297,7 +18297,7 @@ function parseNullDef(refs) {
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/union.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/union.js
 var primitiveMappings = {
   ZodString: "string",
   ZodNumber: "number",
@@ -18365,7 +18365,7 @@ var asAnyOf = (def, refs) => {
   return anyOf.length ? { anyOf } : void 0;
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/nullable.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/nullable.js
 function parseNullableDef(def, refs) {
   if (["ZodString", "ZodNumber", "ZodBigInt", "ZodBoolean", "ZodNull"].includes(def.innerType._def.typeName) && (!def.innerType._def.checks || !def.innerType._def.checks.length)) {
     if (refs.target === "openApi3") {
@@ -18397,7 +18397,7 @@ function parseNullableDef(def, refs) {
   return base && { anyOf: [base, { type: "null" }] };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/number.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/number.js
 function parseNumberDef(def, refs) {
   const res = {
     type: "number"
@@ -18446,7 +18446,7 @@ function parseNumberDef(def, refs) {
   return res;
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/object.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/object.js
 function parseObjectDef(def, refs) {
   const forceOptionalIntoNullable = refs.target === "openAi";
   const result2 = {
@@ -18516,7 +18516,7 @@ function safeIsOptional(schema) {
   }
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/optional.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/optional.js
 var parseOptionalDef = (def, refs) => {
   if (refs.currentPath.toString() === refs.propertyPath?.toString()) {
     return parseDef(def.innerType._def, refs);
@@ -18535,7 +18535,7 @@ var parseOptionalDef = (def, refs) => {
   } : parseAnyDef(refs);
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/pipeline.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/pipeline.js
 var parsePipelineDef = (def, refs) => {
   if (refs.pipeStrategy === "input") {
     return parseDef(def.in._def, refs);
@@ -18555,12 +18555,12 @@ var parsePipelineDef = (def, refs) => {
   };
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/promise.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/promise.js
 function parsePromiseDef(def, refs) {
   return parseDef(def.type._def, refs);
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/set.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/set.js
 function parseSetDef(def, refs) {
   const items = parseDef(def.valueType._def, {
     ...refs,
@@ -18580,7 +18580,7 @@ function parseSetDef(def, refs) {
   return schema;
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/tuple.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/tuple.js
 function parseTupleDef(def, refs) {
   if (def.rest) {
     return {
@@ -18608,24 +18608,24 @@ function parseTupleDef(def, refs) {
   }
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/undefined.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/undefined.js
 function parseUndefinedDef(refs) {
   return {
     not: parseAnyDef(refs)
   };
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/unknown.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/unknown.js
 function parseUnknownDef(refs) {
   return parseAnyDef(refs);
 }
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/readonly.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parsers/readonly.js
 var parseReadonlyDef = (def, refs) => {
   return parseDef(def.innerType._def, refs);
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/selectParser.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/selectParser.js
 var selectParser = (def, typeName, refs) => {
   switch (typeName) {
     case ZodFirstPartyTypeKind.ZodString:
@@ -18701,7 +18701,7 @@ var selectParser = (def, typeName, refs) => {
   }
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parseDef.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/parseDef.js
 function parseDef(def, refs, forceResolution = false) {
   const seenItem = refs.seen.get(def);
   if (refs.override) {
@@ -18757,7 +18757,7 @@ var addMeta = (def, refs, jsonSchema) => {
   return jsonSchema;
 };
 
-// node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/zodToJsonSchema.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/zod-to-json-schema@3.25.2_zod@3.25.76/node_modules/zod-to-json-schema/dist/esm/zodToJsonSchema.js
 var zodToJsonSchema = (schema, options) => {
   const refs = getRefs(options);
   let definitions = typeof options === "object" && options.definitions ? Object.entries(options.definitions).reduce((acc, [name2, schema2]) => ({
@@ -18819,7 +18819,7 @@ var zodToJsonSchema = (schema, options) => {
   return combined;
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-json-schema-compat.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-json-schema-compat.js
 function mapMiniTarget(t) {
   if (!t)
     return "draft-7";
@@ -18861,7 +18861,7 @@ function parseWithCompat(schema, data) {
   return result2.data;
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
 var DEFAULT_REQUEST_TIMEOUT_MSEC = 6e4;
 var Protocol = class {
   constructor(_options) {
@@ -19838,7 +19838,7 @@ function mergeCapabilities(base, additional) {
   return result2;
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/validation/ajv-provider.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/validation/ajv-provider.js
 var import_ajv = __toESM(require_ajv(), 1);
 var import_ajv_formats = __toESM(require_dist(), 1);
 function createDefaultAjvInstance() {
@@ -19906,7 +19906,7 @@ var AjvJsonSchemaValidator = class {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/server.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/server.js
 var ExperimentalServerTasks = class {
   constructor(_server) {
     this._server = _server;
@@ -20119,7 +20119,7 @@ var ExperimentalServerTasks = class {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/helpers.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/helpers.js
 function assertToolsCallTaskCapability(requests, method, entityName) {
   if (!requests) {
     throw new Error(`${entityName} does not support task creation (required for ${method})`);
@@ -20154,7 +20154,7 @@ function assertClientRequestTaskCapability(requests, method, entityName) {
   }
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
 var Server = class extends Protocol {
   /**
    * Initializes this server with the given name and version information.
@@ -20525,7 +20525,7 @@ var Server = class extends Protocol {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/completable.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/completable.js
 var COMPLETABLE_SYMBOL = Symbol.for("mcp.completable");
 function isCompletable(schema) {
   return !!schema && typeof schema === "object" && COMPLETABLE_SYMBOL in schema;
@@ -20539,7 +20539,7 @@ var McpZodTypeKind;
   McpZodTypeKind2["Completable"] = "McpCompletable";
 })(McpZodTypeKind || (McpZodTypeKind = {}));
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/toolNameValidation.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/toolNameValidation.js
 var TOOL_NAME_REGEX = /^[A-Za-z0-9._-]{1,128}$/;
 function validateToolName(name) {
   const warnings = [];
@@ -20597,7 +20597,7 @@ function validateAndWarnToolName(name) {
   return result2.isValid;
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/mcp-server.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/mcp-server.js
 var ExperimentalMcpServerTasks = class {
   constructor(_mcpServer) {
     this._mcpServer = _mcpServer;
@@ -20612,7 +20612,7 @@ var ExperimentalMcpServerTasks = class {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/mcp.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/mcp.js
 function toolInputElementCount(value, max) {
   let count = 0;
   const stack = [value];
@@ -21444,10 +21444,10 @@ var EMPTY_COMPLETION_RESULT = {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
 import process2 from "node:process";
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/stdio.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/stdio.js
 var STDIO_DEFAULT_MAX_BUFFER_SIZE = 10 * 1024 * 1024;
 var ReadBuffer = class {
   constructor(options) {
@@ -21484,7 +21484,7 @@ function serializeMessage(message) {
   return JSON.stringify(message) + "\n";
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
+// ../../../../../ChatGPT/documents-ex/2026-10-22/referenced-chatgpt-conversation-this-is-an/outputs/deepseek-collab/node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_zod@3.25.76/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
 var StdioServerTransport = class {
   constructor(_stdin = process2.stdin, _stdout = process2.stdout, options) {
     this._stdin = _stdin;
@@ -21563,13 +21563,26 @@ import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 var exec = promisify(execFile);
 var assetRoot = new URL(import.meta.url.includes("/dist/") ? "../" : "./", import.meta.url);
-var MODEL = "deepseek-v4.1-flash-1017";
-var ENDPOINT = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
+var MODEL = process.env.COLLAB_MODEL?.trim() || "deepseek-v4.1-flash-1017";
+var ENDPOINT = process.env.COLLAB_ENDPOINT?.trim() || "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
+var custom3 = Boolean(process.env.COLLAB_ENDPOINT?.trim());
+function validateEndpoint() {
+  let url;
+  try {
+    url = new URL(ENDPOINT);
+  } catch {
+    throw new Error("\u4F9B\u5E94\u5546\u5730\u5740\u65E0\u6548\u3002");
+  }
+  if (url.protocol !== "https:" || url.username || url.password || url.hash || url.search) throw new Error("\u4F9B\u5E94\u5546\u5730\u5740\u5FC5\u987B\u662F HTTPS\uFF0C\u4E14\u4E0D\u80FD\u5305\u542B\u7528\u6237\u540D\u3001\u5BC6\u7801\u3001\u67E5\u8BE2\u53C2\u6570\u6216\u7247\u6BB5\u3002");
+}
 var stateDir = () => process.env.DEEPSEEK_COLLAB_STATE || join(process.env.LOCALAPPDATA || process.cwd(), "deepseek-collab");
 async function localKey() {
-  if (process.env.DASHSCOPE_API_KEY?.trim()) return process.env.DASHSCOPE_API_KEY.trim();
-  const path = join(stateDir(), "key.dpapi");
-  if (!existsSync(path)) throw new Error("\u8BF7\u5148\u5728\u672C\u673A\u8FD0\u884C setup-key.ps1\uFF1B\u4E0D\u8981\u5728\u804A\u5929\u4E2D\u53D1\u9001 API Key\u3002");
+  const key = custom3 ? process.env.COLLAB_API_KEY : process.env.DASHSCOPE_API_KEY;
+  if (key?.trim()) return key.trim();
+  const binding = join(stateDir(), "custom-endpoint.txt");
+  if (custom3 && (!existsSync(binding) || readFileSync(binding, "utf8").replace(/^\uFEFF/, "").trim() !== ENDPOINT)) throw new Error("\u81EA\u5B9A\u4E49\u5730\u5740\u4E0E\u672C\u673A\u5BC6\u94A5\u7ED1\u5B9A\u4E0D\u4E00\u81F4\uFF0C\u8BF7\u91CD\u65B0\u8FD0\u884C setup-key.ps1 -Provider custom -Endpoint <\u4F9B\u5E94\u5546\u5730\u5740>\u3002");
+  const path = join(stateDir(), custom3 ? "custom-key.dpapi" : "key.dpapi");
+  if (!existsSync(path)) throw new Error(custom3 ? "\u8BF7\u8FD0\u884C setup-key.ps1 -Provider custom \u914D\u7F6E\u72EC\u7ACB\u5BC6\u94A5\uFF1B\u4E0D\u8981\u5728\u804A\u5929\u4E2D\u53D1\u9001 API Key\u3002" : "\u8BF7\u5148\u5728\u672C\u673A\u8FD0\u884C setup-key.ps1\uFF1B\u4E0D\u8981\u5728\u804A\u5929\u4E2D\u53D1\u9001 API Key\u3002");
   try {
     const { stdout } = await exec("powershell.exe", ["-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", fileURLToPath(new URL("./decrypt-key.ps1", assetRoot)), "-CredentialPath", path], { windowsHide: true });
     if (!stdout.trim()) throw Error("empty");
@@ -21596,7 +21609,8 @@ var Store = class {
     renameSync(temp, target);
   }
   create() {
-    const s = { id: randomUUID(), model: MODEL, turns: [] };
+    validateEndpoint();
+    const s = { id: randomUUID(), model: MODEL, endpoint: ENDPOINT, turns: [] };
     this.sessions[s.id] = s;
     this.save(s);
     return s;
@@ -21617,6 +21631,7 @@ var Store = class {
   }
   async delegate(id, task) {
     const s = this.get(id);
+    if ((s.endpoint || "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions") !== ENDPOINT) throw new Error("\u6B64\u534F\u4F5C\u5C5E\u4E8E\u5176\u4ED6\u4F9B\u5E94\u5546\uFF1B\u8BF7\u65B0\u5EFA\u534F\u4F5C\uFF0C\u907F\u514D\u53D1\u9001\u65E7\u8BB0\u5F55\u3002");
     if (typeof task !== "string" || !task.trim() || task.length > 8e4) throw new Error("\u4EFB\u52A1\u4E0D\u80FD\u4E3A\u7A7A\uFF0C\u6700\u591A 80,000 \u5B57\u7B26\u3002");
     if (this.active.has(id)) throw new Error("\u8BE5\u534F\u4F5C\u4ECD\u5728\u6267\u884C\uFF1B\u8BF7\u7B49\u5F85\u6216\u5148\u505C\u6B62\u3002");
     const messages = [{ role: "system", content: "\u5B8C\u6210\u63D0\u4F9B\u7684\u4EFB\u52A1\uFF0C\u533A\u5206\u4E8B\u5B9E\u548C\u63A8\u6D4B\uFF0C\u4E0D\u7F16\u9020\u8BC1\u636E\u3002\u4F60\u6CA1\u6709\u672C\u5730\u6587\u4EF6\u6216\u547D\u4EE4\u6267\u884C\u5DE5\u5177\uFF0C\u4E0D\u58F0\u79F0\u5DF2\u5B8C\u6210\u672A\u6267\u884C\u7684\u64CD\u4F5C\u3002" }];
@@ -21657,23 +21672,24 @@ var Store = class {
     return turn;
   }
   async request(messages, signal) {
+    validateEndpoint();
     const key = await localKey();
     let response;
     try {
       response = await fetch(ENDPOINT, { method: "POST", headers: { "Authorization": "Bearer " + key, "Content-Type": "application/json" }, body: JSON.stringify({ model: MODEL, messages, stream: false, max_tokens: 8192 }), signal });
     } catch (error2) {
       if (error2.name === "AbortError") throw error2;
-      throw new Error("\u65E0\u6CD5\u8FDE\u63A5\u767E\u70BC\uFF0C\u8BF7\u68C0\u67E5\u7F51\u7EDC\u3002");
+      throw new Error("\u65E0\u6CD5\u8FDE\u63A5\u4F9B\u5E94\u5546\uFF0C\u8BF7\u68C0\u67E5\u7F51\u7EDC\u3002");
     }
-    if (!response.ok) throw new Error(`\u767E\u70BC\u8BF7\u6C42\u5931\u8D25\uFF08HTTP ${response.status}\uFF09\uFF0C\u8BF7\u5728\u767E\u70BC\u68C0\u67E5\u5BC6\u94A5\u6743\u9650\u3001\u4F59\u989D\u548C\u6A21\u578B\u53EF\u7528\u6027\u3002`);
+    if (!response.ok) throw new Error(`\u4F9B\u5E94\u5546\u8BF7\u6C42\u5931\u8D25\uFF08HTTP ${response.status}\uFF09\uFF0C\u8BF7\u68C0\u67E5\u5BC6\u94A5\u6743\u9650\u3001\u4F59\u989D\u548C\u6A21\u578B\u53EF\u7528\u6027\u3002`);
     let result2;
     try {
       result2 = await response.json();
     } catch {
-      throw new Error("\u767E\u70BC\u8FD4\u56DE\u4E86\u65E0\u6548 JSON\u3002");
+      throw new Error("\u4F9B\u5E94\u5546\u8FD4\u56DE\u4E86\u65E0\u6548 JSON\u3002");
     }
     const answer = result2.choices?.[0]?.message?.content;
-    if (typeof answer !== "string" || !answer.trim()) throw new Error("\u767E\u70BC\u672A\u8FD4\u56DE\u53EF\u7528\u6587\u672C\uFF0C\u672C\u6B21\u534F\u4F5C\u672A\u5B8C\u6210\u3002");
+    if (typeof answer !== "string" || !answer.trim()) throw new Error("\u4F9B\u5E94\u5546\u672A\u8FD4\u56DE\u53EF\u7528\u6587\u672C\uFF0C\u672C\u6B21\u534F\u4F5C\u672A\u5B8C\u6210\u3002");
     if (result2.choices[0].finish_reason === "length") throw new Error("\u56DE\u590D\u8FBE\u5230\u8F93\u51FA\u4E0A\u9650\uFF0C\u672A\u4F5C\u4E3A\u5B8C\u6574\u7ED3\u679C\u63A5\u6536\uFF1B\u8BF7\u7F29\u5C0F\u4EFB\u52A1\u3002");
     return { answer, model: result2.model || MODEL };
   }
@@ -21698,6 +21714,6 @@ server.registerTool("deepseek_panel", { title: "DeepSeek \u534F\u4F5C\u9762\u677
   return { session_id: s.id, session: s, sessions: store.list() };
 }));
 server.registerTool("deepseek_history", { title: "\u67E5\u770B\u534F\u4F5C\u8BB0\u5F55", description: "\u8BFB\u53D6\u672C\u673A DeepSeek \u59D4\u6D3E\u8BB0\u5F55\uFF0C\u4E0D\u8C03\u7528\u4F9B\u5E94\u5546\u3002", inputSchema: { session_id: external_exports.string().uuid().optional() }, annotations: { readOnlyHint: true, openWorldHint: false } }, guarded(({ session_id }) => ({ sessions: store.list(), session: session_id ? store.get(session_id) : null })));
-server.registerTool("deepseek_delegate", { title: "\u59D4\u6D3E\u7ED9 DeepSeek", description: "\u4EC5\u7528\u6237\u660E\u786E\u8981\u6C42\u65F6\u53D1\u9001\u4EFB\u52A1\u5230\u767E\u70BC deepseek-v4.1-flash-1017\uFF0C\u6309\u91CF\u8BA1\u8D39\uFF1B\u5B8C\u6210\u540E\u8FD4\u56DE\u56DE\u590D\uFF0C\u4E0D\u6267\u884C\u672C\u5730\u547D\u4EE4\u3002", inputSchema: { session_id: external_exports.string().uuid(), task: external_exports.string().min(1).max(8e4) }, _meta: { ui: { resourceUri: uri } }, annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: true } }, guarded(async ({ session_id, task }) => ({ session_id, turn: await store.delegate(session_id, task), session: store.get(session_id), sessions: store.list() })));
+server.registerTool("deepseek_delegate", { title: "\u59D4\u6D3E\u6A21\u578B\u4EFB\u52A1", description: "\u4EC5\u7528\u6237\u660E\u786E\u8981\u6C42\u65F6\u53D1\u9001\u4EFB\u52A1\u5230\u5DF2\u914D\u7F6E\u7684\u4F9B\u5E94\u5546\uFF0C\u53EF\u80FD\u6309\u91CF\u8BA1\u8D39\uFF1B\u5B8C\u6210\u540E\u8FD4\u56DE\u56DE\u590D\uFF0C\u4E0D\u6267\u884C\u672C\u5730\u547D\u4EE4\u3002", inputSchema: { session_id: external_exports.string().uuid(), task: external_exports.string().min(1).max(8e4) }, _meta: { ui: { resourceUri: uri } }, annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: true } }, guarded(async ({ session_id, task }) => ({ session_id, turn: await store.delegate(session_id, task), session: store.get(session_id), sessions: store.list() })));
 server.registerTool("deepseek_cancel", { title: "\u505C\u6B62 DeepSeek \u8BF7\u6C42", description: "\u505C\u6B62\u5F53\u524D\u8BF7\u6C42\uFF0C\u5DF2\u4EA7\u751F\u7684\u4F9B\u5E94\u5546\u7528\u91CF\u4E0D\u64A4\u9500\u3002", inputSchema: { session_id: external_exports.string().uuid() }, annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: false } }, guarded(({ session_id }) => store.cancel(session_id)));
 await server.connect(new StdioServerTransport());
