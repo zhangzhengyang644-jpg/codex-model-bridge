@@ -6,10 +6,11 @@ import {promisify} from 'node:util';
 import {fileURLToPath} from 'node:url';
 const exec=promisify(execFile);
 export const assetRoot=new URL(import.meta.url.includes('/dist/')?'../':'./',import.meta.url);
-export const MODEL=process.env.COLLAB_MODEL?.trim()||'deepseek-v4.1-flash-1017';
-export const ENDPOINT=process.env.COLLAB_ENDPOINT?.trim()||'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions';
-const custom=Boolean(process.env.COLLAB_ENDPOINT?.trim());
-function validateEndpoint(){let url;try{url=new URL(ENDPOINT);}catch{throw new Error('供应商地址无效。');}if(url.protocol!=='https:'||url.username||url.password||url.hash||url.search)throw new Error('供应商地址必须是 HTTPS，且不能包含用户名、密码、查询参数或片段。');}
+const legacy=process.env.COLLAB_PROVIDER==='bailian';
+export const MODEL=process.env.COLLAB_MODEL?.trim()||(legacy?'deepseek-v4.1-flash-1017':'');
+export const ENDPOINT=process.env.COLLAB_ENDPOINT?.trim()||(legacy?'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions':'');
+const custom=!legacy;
+function validateEndpoint(){let url;try{url=new URL(ENDPOINT);}catch{throw new Error('供应商地址无效。');}if(url.protocol!=='https:'||url.username||url.password||url.hash||url.search)throw new Error('供应商地址必须是 HTTPS，且不能包含用户名、密码、查询参数或片段。');if(legacy&&ENDPOINT!=='https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions')throw new Error('百炼密钥只能用于百炼地址。');}
 export const stateDir=()=>process.env.DEEPSEEK_COLLAB_STATE||join(process.env.LOCALAPPDATA||process.cwd(),'deepseek-collab');
 export async function localKey(){
   const key=custom?process.env.COLLAB_API_KEY:process.env.DASHSCOPE_API_KEY;
@@ -26,7 +27,7 @@ export class Store {
   constructor(directory=stateDir(),provider=null){this.directory=directory;this.provider=provider;this.active=new Map();this.sessions={};mkdirSync(directory,{recursive:true});}
   path(id){if(!/^[a-f0-9-]{36}$/.test(id))throw new Error('无效协作编号。');return join(this.directory,id+'.json');}
   save(s){const target=this.path(s.id),temp=target+'.'+process.pid+'.tmp';writeFileSync(temp,JSON.stringify(s),{mode:0o600});renameSync(temp,target);}
-  create(){validateEndpoint();const s={id:randomUUID(),model:MODEL,endpoint:ENDPOINT,turns:[]};this.sessions[s.id]=s;this.save(s);return s;}
+  create(){if(!MODEL||!ENDPOINT)throw new Error('请先配置供应商地址和模型名称。');validateEndpoint();const s={id:randomUUID(),model:MODEL,endpoint:ENDPOINT,turns:[]};this.sessions[s.id]=s;this.save(s);return s;}
   get(id){if(this.active.has(id))return this.sessions[id];const path=this.path(id);if(!existsSync(path))throw new Error('找不到这次协作，请新建面板。');return this.sessions[id]=JSON.parse(readFileSync(path,'utf8'));}
   list(){return readdirSync(this.directory).filter(f=>/^[a-f0-9-]{36}\.json$/.test(f)).map(f=>this.get(f.slice(0,-5))).map(s=>({id:s.id,title:s.turns[0]?.task.slice(0,45)||'新协作',running:s.turns.some(t=>t.status==='running')}));}
   cancel(id){this.get(id);this.active.get(id)?.abort();return {stopped:true};}

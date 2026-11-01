@@ -1,5 +1,5 @@
 import {App} from '@modelcontextprotocol/ext-apps';
-const app=new App({name:'DeepSeek 协作',version:'0.1.0'},{availableDisplayModes:['inline','fullscreen']});
+const app=new App({name:'Codex Model Bridge',version:'0.3.0'},{availableDisplayModes:['inline','fullscreen']});
 let id=null,busy=false;
 const $=s=>document.querySelector(s);
 function paint(data){

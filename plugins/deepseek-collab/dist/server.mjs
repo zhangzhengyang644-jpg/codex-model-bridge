@@ -21563,9 +21563,10 @@ import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 var exec = promisify(execFile);
 var assetRoot = new URL(import.meta.url.includes("/dist/") ? "../" : "./", import.meta.url);
-var MODEL = process.env.COLLAB_MODEL?.trim() || "deepseek-v4.1-flash-1017";
-var ENDPOINT = process.env.COLLAB_ENDPOINT?.trim() || "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
-var custom3 = Boolean(process.env.COLLAB_ENDPOINT?.trim());
+var legacy = process.env.COLLAB_PROVIDER === "bailian";
+var MODEL = process.env.COLLAB_MODEL?.trim() || (legacy ? "deepseek-v4.1-flash-1017" : "");
+var ENDPOINT = process.env.COLLAB_ENDPOINT?.trim() || (legacy ? "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions" : "");
+var custom3 = !legacy;
 function validateEndpoint() {
   let url;
   try {
@@ -21574,6 +21575,7 @@ function validateEndpoint() {
     throw new Error("\u4F9B\u5E94\u5546\u5730\u5740\u65E0\u6548\u3002");
   }
   if (url.protocol !== "https:" || url.username || url.password || url.hash || url.search) throw new Error("\u4F9B\u5E94\u5546\u5730\u5740\u5FC5\u987B\u662F HTTPS\uFF0C\u4E14\u4E0D\u80FD\u5305\u542B\u7528\u6237\u540D\u3001\u5BC6\u7801\u3001\u67E5\u8BE2\u53C2\u6570\u6216\u7247\u6BB5\u3002");
+  if (legacy && ENDPOINT !== "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions") throw new Error("\u767E\u70BC\u5BC6\u94A5\u53EA\u80FD\u7528\u4E8E\u767E\u70BC\u5730\u5740\u3002");
 }
 var stateDir = () => process.env.DEEPSEEK_COLLAB_STATE || join(process.env.LOCALAPPDATA || process.cwd(), "deepseek-collab");
 async function localKey() {
@@ -21609,6 +21611,7 @@ var Store = class {
     renameSync(temp, target);
   }
   create() {
+    if (!MODEL || !ENDPOINT) throw new Error("\u8BF7\u5148\u914D\u7F6E\u4F9B\u5E94\u5546\u5730\u5740\u548C\u6A21\u578B\u540D\u79F0\u3002");
     validateEndpoint();
     const s = { id: randomUUID(), model: MODEL, endpoint: ENDPOINT, turns: [] };
     this.sessions[s.id] = s;
@@ -21709,11 +21712,11 @@ var guarded = (fn) => async (args) => {
   }
 };
 server.registerResource("panel", uri, { mimeType: "text/html;profile=mcp-app" }, async () => ({ contents: [{ uri, mimeType: "text/html;profile=mcp-app", text: readFileSync2(new URL("./dist/panel.html", assetRoot), "utf8"), _meta: { "openai/ui": { availableDisplayModes: ["inline", "fullscreen"], preferredDisplayMode: "fullscreen" }, ui: { csp: { connectDomains: [], resourceDomains: [] } } } }] }));
-server.registerTool("deepseek_panel", { title: "DeepSeek \u534F\u4F5C\u9762\u677F", description: "\u6253\u5F00\u5F53\u524D\u804A\u5929\u65C1\u7684 DeepSeek \u4EFB\u52A1\u4E0E\u56DE\u590D\u9762\u677F\uFF1B\u4E0D\u8C03\u7528 API\u3002", inputSchema: { session_id: external_exports.string().uuid().optional() }, _meta: view, annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: false } }, guarded(({ session_id }) => {
+server.registerTool("deepseek_panel", { title: "\u6A21\u578B\u534F\u4F5C\u9762\u677F", description: "\u6253\u5F00\u5F53\u524D\u804A\u5929\u65C1\u7684\u6A21\u578B\u4EFB\u52A1\u4E0E\u56DE\u590D\u9762\u677F\uFF1B\u4E0D\u8C03\u7528 API\u3002", inputSchema: { session_id: external_exports.string().uuid().optional() }, _meta: view, annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: false } }, guarded(({ session_id }) => {
   const s = session_id ? store.get(session_id) : store.create();
   return { session_id: s.id, session: s, sessions: store.list() };
 }));
-server.registerTool("deepseek_history", { title: "\u67E5\u770B\u534F\u4F5C\u8BB0\u5F55", description: "\u8BFB\u53D6\u672C\u673A DeepSeek \u59D4\u6D3E\u8BB0\u5F55\uFF0C\u4E0D\u8C03\u7528\u4F9B\u5E94\u5546\u3002", inputSchema: { session_id: external_exports.string().uuid().optional() }, annotations: { readOnlyHint: true, openWorldHint: false } }, guarded(({ session_id }) => ({ sessions: store.list(), session: session_id ? store.get(session_id) : null })));
+server.registerTool("deepseek_history", { title: "\u67E5\u770B\u534F\u4F5C\u8BB0\u5F55", description: "\u8BFB\u53D6\u672C\u673A\u6A21\u578B\u59D4\u6D3E\u8BB0\u5F55\uFF0C\u4E0D\u8C03\u7528\u4F9B\u5E94\u5546\u3002", inputSchema: { session_id: external_exports.string().uuid().optional() }, annotations: { readOnlyHint: true, openWorldHint: false } }, guarded(({ session_id }) => ({ sessions: store.list(), session: session_id ? store.get(session_id) : null })));
 server.registerTool("deepseek_delegate", { title: "\u59D4\u6D3E\u6A21\u578B\u4EFB\u52A1", description: "\u4EC5\u7528\u6237\u660E\u786E\u8981\u6C42\u65F6\u53D1\u9001\u4EFB\u52A1\u5230\u5DF2\u914D\u7F6E\u7684\u4F9B\u5E94\u5546\uFF0C\u53EF\u80FD\u6309\u91CF\u8BA1\u8D39\uFF1B\u5B8C\u6210\u540E\u8FD4\u56DE\u56DE\u590D\uFF0C\u4E0D\u6267\u884C\u672C\u5730\u547D\u4EE4\u3002", inputSchema: { session_id: external_exports.string().uuid(), task: external_exports.string().min(1).max(8e4) }, _meta: { ui: { resourceUri: uri } }, annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: true } }, guarded(async ({ session_id, task }) => ({ session_id, turn: await store.delegate(session_id, task), session: store.get(session_id), sessions: store.list() })));
-server.registerTool("deepseek_cancel", { title: "\u505C\u6B62 DeepSeek \u8BF7\u6C42", description: "\u505C\u6B62\u5F53\u524D\u8BF7\u6C42\uFF0C\u5DF2\u4EA7\u751F\u7684\u4F9B\u5E94\u5546\u7528\u91CF\u4E0D\u64A4\u9500\u3002", inputSchema: { session_id: external_exports.string().uuid() }, annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: false } }, guarded(({ session_id }) => store.cancel(session_id)));
+server.registerTool("deepseek_cancel", { title: "\u505C\u6B62\u6A21\u578B\u8BF7\u6C42", description: "\u505C\u6B62\u5F53\u524D\u8BF7\u6C42\uFF0C\u5DF2\u4EA7\u751F\u7684\u4F9B\u5E94\u5546\u7528\u91CF\u4E0D\u64A4\u9500\u3002", inputSchema: { session_id: external_exports.string().uuid() }, annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: false } }, guarded(({ session_id }) => store.cancel(session_id)));
 await server.connect(new StdioServerTransport());
