@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deepseek-collab",
+  "version": "0.1.1",
+  "description": "由主 Codex 委派百炼 DeepSeek 文本任务，并在聊天侧边面板保留任务与回复。",
+  "author": {
+    "name": "Local Workspace"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DeepSeek 协作",
+        "shortDescription": "任务与回复并排展示",
+        "longDescription": "在当前聊天旁查看主 Codex 发给 DeepSeek 的任务与回复，支持同一任务连续追问。仅显式委派才调用按量计费 API，不执行本地命令。",
+        "developerName": "Local Workspace",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "打开 DeepSeek 协作面板；仅在我明确要求时委派任务。"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"name":"local-deepseek-collab","interface":{"displayName":"本地 DeepSeek 协作"},"plugins":[{"name":"deepseek-collab","source":{"source":"local","path":"./plugins/deepseek-collab"},"policy":{"installation":"AVAILABLE","authentication":"ON_INSTALL"},"category":"Developer Tools"}]}

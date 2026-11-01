@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtempSync,rmSync} from 'node:fs';
+import {join} from 'node:path';
+import {tmpdir} from 'node:os';
+import {Store,MODEL,ENDPOINT} from './core.mjs';
+async function fixture(fn,provider){const dir=mkdtempSync(join(tmpdir(),'deepseek-collab-test-'));try{await fn(new Store(dir,provider),dir);}finally{rmSync(dir,{recursive:true,force:true});}}
+test('model endpoint is pinned to user-approved Bailian',()=>{assert.equal(MODEL,'deepseek-v4.1-flash-1017');assert.equal(new URL(ENDPOINT).hostname,'dashscope.aliyuncs.com');});
+test('successful followup reuses actual prior result and survives reload',()=>fixture(async(s,dir)=>{const a=s.create();await s.delegate(a.id,'first');await s.delegate(a.id,'next');assert.equal(new Store(dir).get(a.id).turns.length,2);},async messages=>{if(messages.at(-1).content==='next')assert.equal(messages[2].content,'answer');return {answer:'answer',model:MODEL};}));
+test('failed calls are visible and not replayed as successful history',()=>fixture(async s=>{const a=s.create();const r=await s.delegate(a.id,'task');assert.equal(r.status,'failed');assert.match(r.error,/offline/);},async()=>{throw Error('offline');}));
+test('cancel aborts request; concurrent dispatch is rejected',()=>fixture(async s=>{const a=s.create();const pending=s.delegate(a.id,'task');await assert.rejects(s.delegate(a.id,'duplicate'),/仍在执行/);s.cancel(a.id);assert.equal((await pending).status,'failed');},async(_,signal)=>new Promise((_,reject)=>signal.addEventListener('abort',()=>reject(new DOMException('cancel','AbortError')),{once:true}))));
+test('missing sessions and empty tasks fail before provider call',()=>fixture(async s=>{assert.throws(()=>s.get('missing'));const a=s.create();await assert.rejects(s.delegate(a.id,' '));},async()=>{throw Error('must not call');}));
+test('separate processes preserve independent session files',()=>fixture(async(s,dir)=>{const a=s.create();const other=new Store(dir);const b=other.create();assert.equal(s.list().length,2);assert.equal(other.get(a.id).id,a.id);assert.equal(s.get(b.id).id,b.id);}));
+test('second store cannot dispatch an already locked session',()=>fixture(async(s,dir)=>{const a=s.create();const pending=s.delegate(a.id,'task');const other=new Store(dir);await assert.rejects(other.delegate(a.id,'duplicate'),/占用/);s.cancel(a.id);await pending;},async(_,signal)=>new Promise((_,reject)=>signal.addEventListener('abort',()=>reject(new DOMException('cancel','AbortError')),{once:true}))));

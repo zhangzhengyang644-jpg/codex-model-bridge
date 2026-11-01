@@ -1,0 +1,18 @@
+{
+  "name": "deepseek-collab",
+  "version": "0.1.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "@modelcontextprotocol/ext-apps": "^1.7.5",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
