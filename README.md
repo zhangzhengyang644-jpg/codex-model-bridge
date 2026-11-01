@@ -11,8 +11,8 @@
 1. 克隆仓库：
 
 ```powershell
-git clone https://github.com/zhangzhengyang644-jpg/codex-deepseek-collab.git
-cd codex-deepseek-collab
+git clone https://github.com/zhangzhengyang644-jpg/codex-model-bridge.git
+cd codex-model-bridge
 ```
 
 2. 编辑 `plugins/deepseek-collab/mcp.json`，在 `cwd` 同级加入 `env`。以下是 DeepSeek 官方接口示例，其他供应商须替换成其完整的 HTTPS Chat Completions 地址和模型名称：
